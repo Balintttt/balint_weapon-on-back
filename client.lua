@@ -82,7 +82,7 @@ CreateThread(function()
                 if not Slots[i].occupied and i <= #carriedProps then
                     if ((#carriedProps > 0) and (hash == carriedProps[i].Hash and carriedProps[i].Hash ~= Slots[i].currentProp )) then
                         if not attachedWeapons[name] and GetSelectedPedWeapon(me) ~= hash then
-                            print("Fegyver létrehozása hash-el:" .. carriedProps[i].Hash)
+                            --print("Fegyver létrehozása hash-el:" .. carriedProps[i].Hash) -- Ezt ha szeretnéd használd, F8-ban írja ezt az üzenetet
                             Slots[i].currentHandle = AttachProp(name, hash, Config.backbone, Slots[i].x,
                                 Slots[i].y, Slots[i].z, Slots[i].x_rotation, Slots[i].y_rotation,
                                 Slots[i].z_rotation)
@@ -139,7 +139,7 @@ function AttachProp(attachModel, modelHash, boneNumber, x, y, z, xR, yR, zR)
     local bone = GetPedBoneIndex(GetPlayerPed(-1), boneNumber)
     RequestModel(attachModel)
     while not HasModelLoaded(attachModel) do
-        print("Várakozás a modell-re...")
+        --print("Várakozás a modell-re...") -- Ezt ha szeretnéd használd, F8-ban írja ezt az üzenetet
         Wait(100)
     end
     attachedWeapons[attachModel] = {
