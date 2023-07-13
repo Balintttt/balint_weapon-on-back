@@ -2,6 +2,7 @@ Config = {}
 
 Config.props = {
     ["w_me_bat"] = GetHashKey("WEAPON_BAT"),
+    ["w_me_machete"] = GetHashKey("WEAPON_MACHETE"),
     ["prop_ld_w_me_machette"] = GetHashKey("WEAPON_MACHETE"),
     ["w_ar_carbinerifle"] = GetHashKey("WEAPON_CARBINERIFLE"),
     ["w_ar_carbineriflemk2"] = GetHashKey("WEAPON_CARBINERIFLE_MK2"),
