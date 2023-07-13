@@ -13,6 +13,7 @@ Config.props = {
     ["w_sb_microsmg"] = GetHashKey("WEAPON_MICROSMG"),
     ["w_sb_assaultsmg"] = GetHashKey("WEAPON_ASSAULTSMG"),
     ["w_sb_smg"] = GetHashKey("WEAPON_SMG"),
+    ["w_sb_smg"] = GetHashKey("WEAPON_COMBATPDW"),
     ["w_sb_smgmk2"] = GetHashKey("WEAPON_SMG_MK2"),
     ["w_sb_gusenberg"] = GetHashKey("WEAPON_GUSENBERG"),
     ["w_sr_sniperrifle"] = GetHashKey("WEAPON_SNIPERRIFLE"),
