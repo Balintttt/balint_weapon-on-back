@@ -2,7 +2,7 @@ Config = {}
 
 Config.props = {
     ["w_me_bat"] = GetHashKey("WEAPON_BAT"),
-    ["w_me_machete"] = GetHashKey("WEAPON_MACHETE"),
+    ["w_me_machette"] = GetHashKey("WEAPON_MACHETE"),
     ["prop_ld_w_me_machette"] = GetHashKey("WEAPON_MACHETE"),
     ["w_ar_carbinerifle"] = GetHashKey("WEAPON_CARBINERIFLE"),
     ["w_ar_carbineriflemk2"] = GetHashKey("WEAPON_CARBINERIFLE_MK2"),
@@ -13,7 +13,7 @@ Config.props = {
     ["w_sb_microsmg"] = GetHashKey("WEAPON_MICROSMG"),
     ["w_sb_assaultsmg"] = GetHashKey("WEAPON_ASSAULTSMG"),
     ["w_sb_smg"] = GetHashKey("WEAPON_SMG"),
-    ["w_ar_combatpdw"] = GetHashKey("WEAPON_COMBATPDW"),
+    ["w_sb_pdw"] = GetHashKey("WEAPON_COMBATPDW"),
     ["w_sb_smgmk2"] = GetHashKey("WEAPON_SMG_MK2"),
     ["w_sb_gusenberg"] = GetHashKey("WEAPON_GUSENBERG"),
     ["w_sr_sniperrifle"] = GetHashKey("WEAPON_SNIPERRIFLE"),
